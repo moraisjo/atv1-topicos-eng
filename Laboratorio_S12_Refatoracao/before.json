@@ -1,0 +1,50 @@
+{
+  "gold-free-shipping": {
+    "discount": 20.0,
+    "message": "Diego: frete grátis | total R$ 212.40",
+    "shipping": 0.0,
+    "subtotal": 200.0,
+    "tax": 32.4,
+    "total": 212.4
+  },
+  "gold-low": {
+    "discount": 10.0,
+    "message": "Carla: frete R$ 12.00 | total R$ 120.36",
+    "shipping": 12.0,
+    "subtotal": 100.0,
+    "tax": 18.36,
+    "total": 120.36
+  },
+  "multiple-items": {
+    "discount": 7.5,
+    "message": "Fábio: frete R$ 12.00 | total R$ 182.31",
+    "shipping": 12.0,
+    "subtotal": 150.0,
+    "tax": 27.81,
+    "total": 182.31
+  },
+  "regular-low": {
+    "discount": 0.0,
+    "message": "Ana: frete R$ 12.00 | total R$ 132.16",
+    "shipping": 12.0,
+    "subtotal": 100.0,
+    "tax": 20.16,
+    "total": 132.16
+  },
+  "shipping-boundary": {
+    "discount": 0.0,
+    "message": "Eva: frete grátis | total R$ 177.00",
+    "shipping": 0.0,
+    "subtotal": 150.0,
+    "tax": 27.0,
+    "total": 177.0
+  },
+  "silver-low": {
+    "discount": 5.0,
+    "message": "Bruno: frete R$ 12.00 | total R$ 126.26",
+    "shipping": 12.0,
+    "subtotal": 100.0,
+    "tax": 19.26,
+    "total": 126.26
+  }
+}
