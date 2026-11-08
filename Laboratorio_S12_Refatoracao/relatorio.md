@@ -2,7 +2,7 @@
 
 ## 1. Estratégia para os três TDIs
 
-Para o TDI-01, escolhi **reduzir** a dívida. A função `checkout()` recebia mudanças frequentes, uma nova regra para clientes PLATINUM estava prevista e a equipe precisava reler toda a rotina a cada alteração. Extraí responsabilidades para funções auxiliares, deixando a função pública menor e mais fácil de acompanhar. Isso reduz o custo de compreender e modificar o fluxo, mas não elimina toda a dívida: as regras continuam neste módulo e uma futura regra ainda exigirá uma mudança.
+Para o TDI-01, escolhi **reduzir** a dívida porque a função `checkout()` recebia mudanças frequentes, uma nova regra para clientes PLATINUM estava prevista e a equipe precisava reler toda a rotina a cada alteração. Extraí responsabilidades para funções auxiliares, deixando a função pública menor e mais fácil de acompanhar. Isso reduz o custo de compreender e modificar o fluxo, mas não elimina toda a dívida: as regras continuam neste módulo e uma futura regra ainda exigirá uma mudança.
 
 Para o TDI-02, escolhi **aceitar temporariamente** a dívida e postergar qualquer refatoração. Embora `legacy_export.py` seja difícil de ler, ele deve ser aposentado em aproximadamente oito semanas, não tem incidentes recentes e possui baixa cobertura. Uma intervenção agora teria pouco tempo para recuperar seu custo e evidência limitada de preservação. Para o TDI-03, escolhi **mitigar**: a integração fiscal é crítica e não pode ser substituída antes da liberação do SDK. O monitoramento e os testes de contrato reduzem o risco enquanto a dependência externa não está disponível.
 
